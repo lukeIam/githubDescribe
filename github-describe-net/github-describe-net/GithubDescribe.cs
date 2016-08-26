@@ -18,7 +18,7 @@ namespace GithubDescribe
         {
             if (args.Length != 3)
             {
-                Console.WriteLine("");
+                Console.WriteLine("Usage:\ngithubDescribe.exe ProjectOwner Project CommitSHA");
                 Environment.Exit(4);
             }
 
